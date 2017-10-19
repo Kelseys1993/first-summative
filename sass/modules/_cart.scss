@@ -1,0 +1,242 @@
+
+.wrapper{
+	display:grid;
+	grid-template-columns: 380px;
+	grid-row-gap:40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+
+		}
+
+.title{
+	@include productStyle;
+	position: absolute;
+	left:110px;
+	bottom:50px;
+}
+.title2{
+	@include productStyle;
+	position: absolute;
+	left:90px;
+	bottom:50px;
+
+}
+.title3{
+	@include productStyle;
+	position: absolute;
+	left:120px;
+	bottom: 50px;
+}
+
+.title4{
+	@include productStyle;
+	position: absolute;
+	left:120px;
+	bottom: 50px;
+}
+
+
+.price{
+	@include productStyle;
+	position: absolute;
+	left:10px;
+	
+}
+
+
+
+#product_price{
+	position: absolute;
+	@include productStyle;
+	
+	
+	
+}
+.product_price1{
+	@include productStyle;
+	position: absolute;
+	left:200px;
+	bottom:50px;
+
+}
+.product_price2{
+	@include productStyle;
+	position: absolute;
+	left:210px;
+	bottom:50px;
+}
+.product_price3{
+	@include productStyle;
+	position: absolute;
+	left:270px;
+	bottom: 50px;
+}
+.product_price4{
+	@include productStyle;
+	position: absolute;
+	left:250px;
+	bottom: 50px;
+}
+.product_price5{
+	@include productStyle;
+	position: absolute;
+	left:210px;
+	bottom: 50px;
+}
+.product_price6{
+	@include productStyle;
+	position: absolute;
+	left:220px;
+	bottom: 50px;	
+
+}
+#product_description{
+	@include cartStyle;
+	text-align: center;
+	position: absolute;
+	top:30px;
+	left:35px;
+	
+}
+#product_description2{
+	@include cartStyle;
+	position: absolute;
+	text-align: center;
+	top:30px;
+	left:90px;
+
+}
+#product_description3{
+	@include cartStyle;
+	position: absolute;
+	text-align: center;
+	left:60px;
+	top:30px;
+
+
+}
+#product_description4{
+	@include cartStyle;
+	position: absolute;
+	text-align: center;
+	left:120px;
+	top:30px;
+
+}
+#product_description5{
+	@include cartStyle;
+	position: absolute;
+	text-align: center;
+	left:45px;
+	top:30px;
+}
+.add{
+	@include cartButton;
+	position: absolute;
+	top:15px;
+	left:320px;
+	
+		}
+.remove{
+	@include cartButton;
+	position: absolute;
+	top:50px;
+	left:320px;
+}
+
+.cartbackground1{
+	@include style;
+
+
+}
+.cartbackground2{
+	@include style;
+
+}
+.cartbackground3{
+	@include style;
+
+}
+
+
+.clear{
+	background-color: #800000;
+	color: $secondary-color;
+	font-size: 16px;
+	border-radius: 10px;
+	border:none;
+	font-family: $font;
+	margin-left: 25px;
+	margin-top: 10px;
+
+}
+.cartCount {
+	@include cartStyle;
+
+}
+#cartCount{
+	@include cartStyle;
+	margin-left: $margin;
+
+}
+.cartTitle{
+	@include cartStyle;
+	margin-left: $margin;}
+
+#cartTable{
+	@include cartStyle;
+	margin-left: 25px;
+	display: none;
+	position: relative;
+	
+
+}
+#cartnames{
+	margin-left: 20px;
+}
+#orderPrice{
+	@include cartStyle;
+	margin-left: $margin;
+}
+#template{
+	display: none;
+}
+
+.count{
+	position: absolute;
+	left:250px;
+}
+.cartbutton1{
+position: absolute;
+left:290px;
+
+}
+.cartbutton2{
+position: absolute;
+left:290px;
+
+}
+#CartContainer{
+	margin-left: 30px;
+}
+#kitchen{
+	@include sendToKitchen;
+}
+#yourOrder{
+	@include cartStyle;
+	margin-left: 120px;
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 16px;
+
+}
+.progress{
+	background-color: black;
+	width:320px;
+	min-height:150px;
+	margin-left: 45px;
+	border-radius: 10px;
+	margin-top:30px;
+	border: 2px solid $secondary-color;
+}

@@ -1,0 +1,53 @@
+body{
+display:inline;
+margin:0px;
+
+}
+.container{
+	width: 100%;
+	height: 736px;
+	
+	
+}
+.container--two{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap:0px;
+	position: relative;
+	width: 414px;
+	padding-left: 0px;
+	
+
+
+	
+}
+
+.section{
+	width:414px;
+
+	
+}
+.section--header{
+	background-color: $primary-color;
+	height: 118px;
+	grid-row:1/2;
+	position: relative;
+	
+}
+.section--body{
+	height:555px;
+	background-image: url("../img/background3.png");
+	grid-row:2/3;
+	
+	overflow-y:scroll;
+
+
+}
+.section--footer{
+	height: 61px;
+	background-color: $primary-color;
+	grid-row:3/4;
+	
+	
+	
+	}

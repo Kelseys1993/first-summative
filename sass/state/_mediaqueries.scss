@@ -1,0 +1,728 @@
+/*This is for desktop*/
+@media only screen and (min-width: 768px) {
+
+.container{
+	width: 768px !important;
+	height: 1024px;
+	margin: 0 auto;
+
+	
+}
+#body{
+	width: 768px !important;
+	height: 1024px !important;
+}
+.container--two{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap:0px;
+	position: relative;
+	width: 768px;
+	margin: 0 auto;
+	
+
+
+	
+}
+
+.section{
+	width:768px;
+
+	
+}
+.section--header{
+	height: 292px;
+
+}
+.header2{
+	height: 196px;
+	
+}
+.section--body{
+	height:900px;
+	background-image: url("../img/background1.png");
+	overflow: visible;
+	
+
+}
+.section--footer{
+	height: 128px;
+	
+	
+	
+	}
+	
+#button1{
+	top:800px !important;
+	left: 200px !important;
+	width: 345px !important;
+	height: 106px !important;
+	font-size: 40px !important;
+}
+#button2{
+	@include buttonStyle;
+	width: 144px;
+	height:48px;
+	font-size: 20px !important;
+	
+	
+}
+#logo1{
+	margin-top: 10px !important;
+	left: 110px !important;
+	top: 129px !important;
+	width: 549px !important ;
+	height: 413px !important;
+}
+#logo2{
+	display: none;
+
+}
+#logo3{
+	width:242px !important;
+	height: 182px !important;
+	margin-left: 100px !important;
+}
+#logo{
+	display: inherit !important;
+	width: 180px !important;
+	height: 137px !important;
+	margin-left: 293px;
+	margin-top: 10px;
+}
+#popup{
+	width:516px;
+	height: 274px;
+	font-size: 32px;
+	right:60px;
+}
+#words{
+	font-size: 48px;
+	margin-top: 80px;
+	width: 500px;
+}
+ul {
+    
+    right:90px;
+    top:100px;
+
+}
+
+li a {
+   
+    width:768px;
+    font-size: 20px; 
+    margin-left: 120px;
+
+	
+}
+#pizzaicon{
+	display: inherit !important;
+	width: 82px;
+	height: 82px;
+	bottom: 50px;
+	
+
+}
+#breadicon{
+	display: inherit !important;
+	width: 82px;
+	height: 82px;
+	bottom: 40px;
+	
+
+}
+#glassicon{
+	display: inherit !important;
+	width: 73px;
+	height: 73px;
+	bottom: 55px;
+	
+
+}
+#cakeicon{
+	display: inherit !important;
+	width: 69px;
+	height: 69px;
+	bottom: 55px;
+	
+
+}
+.wrapper{
+	grid-template-columns: repeat(2, 205px);
+	grid-column-gap:40px;
+	
+	
+
+
+}
+	
+#pagename{
+	display: inherit !important
+	}
+
+#button3{
+	font-size: 20px !important;
+	margin-left: 250px !important;
+	margin-top: 40px !important;
+	width:237px !important;
+	height: 47px !important;
+
+	}
+.pizza {
+	width: 205px !important;
+	height: 207px !important;
+
+}
+.add{
+	top:160px;
+	left:70px;
+}
+.remove{
+	top:160px;
+	left:110px;
+}
+.cartbutton1{
+	top:-90px;
+	left: 180px;
+	
+}
+.cartbutton2{
+	top:-50px;
+	left:180px;
+}
+.cartbackground1{
+	width:220px;
+	margin-left: 520px;
+	margin-top: -740px;
+	min-height: 200px;
+	margin-bottom: 500px;
+
+}
+.cartbackground2{
+	width:220px;
+	margin-left: 520px;
+	margin-top: -495px;
+	min-height: 200px;
+	margin-bottom: 500px;
+	
+}
+.cartTitle{
+	font-size:13px;
+}
+#cartCount{
+	font-size:13px;
+}
+#orderPrice{
+	font-size: 13px;
+}
+
+#kitchen{
+	font-size: 14px;
+	margin-left: 45px;
+
+
+
+}
+#cartTable{
+	margin-left: 5px;
+	font-size: 10px;
+}
+#popup3{
+	top:-120px;
+	right: 10px;
+	height:110px;
+}
+#popup4{
+	top:-120px;
+	right:10px;
+	height: 110px;
+}
+#popup5{
+	top:-120px;
+	right:10px;
+	height: 110px;
+}
+#popup2{
+	width:768px;
+	top:245px;
+	ul{
+		top:0px;
+	}
+}
+
+.title{
+	left:70px;
+	bottom: 160px;
+}
+.title2{
+	left:35px;
+	bottom: 160px;
+}
+.title3{
+	left:60px;
+	bottom: 160px;
+}
+.title4{
+	bottom:160px;
+	left:65px;
+}
+.title5{
+	position: absolute;
+	left:60px;
+}
+.title6{
+	position: absolute;
+	left: 40px;
+}
+.title7{
+	position: absolute;
+	left:25px;
+}
+
+#product_description{
+	left: 10px;
+	top:40px;
+}
+#product_description2{
+	left:20px;
+	top:50px;}
+#product_description3{
+	right:30px;
+	left:30px;
+	top:40px;
+}
+#product_description5{
+	left:20px;
+	right: 20px;
+	top:40px;}
+
+.product_price1{
+	left:85px;
+}
+.product_price2{
+	left:85px;
+}
+.product_price4{
+	
+	left:90px;
+}
+.product_price5{
+	left:85px;
+}
+.product_price6{
+	left:85px;
+}
+.progress{
+	margin-left: 180px;	
+	width:400px;
+	margin-top: 50px;
+}
+.cartTable{
+	font-size: 20px !important;
+}
+#yourOrder{
+	font-size: 25px;
+	margin-left: 130px;
+}
+.orderprice{
+	font-size: 20px !important;
+}
+#myProgress{
+	height:50px;
+	margin-left: 35px !important;
+	margin-top: 200px !important;
+}
+#myBar{
+	height: 50px !important;
+}
+#button5{
+	font-size: 20px !important;
+	width:250px !important;
+	height: 40px !important;
+	margin-left: 260px !important;
+}
+.button4{
+	width:345px !important;
+	height:106px !important;
+	font-size: 40px !important;
+	margin-left:215px !important;
+	margin-top: 150px !important;
+}
+.count{
+	display: none;
+}
+.iconsc{
+	font-size: 10px !important;
+	margin-left: 200px !important;
+	margin-top: 10px !important;
+	a{
+	font-size: 10px !important;
+	}
+}
+
+}
+
+/*This is for tablet*/
+@media only screen and (min-width: 414px) and (max-width: 768px){
+
+.container{
+	width: 768px !important;
+	height: 1024px;
+	margin: 0 auto;
+
+	
+}
+#body{
+	width: 768px !important;
+	height: 1024px !important;
+}
+.container--two{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap:0px;
+	position: relative;
+	width: 768px;
+	margin: 0 auto;
+	
+
+
+	
+}
+
+.section{
+	width:768px;
+
+	
+}
+.section--header{
+	height: 292px;
+
+}
+.header2{
+	height: 196px;
+	
+}
+.section--body{
+	height:900px;
+	background-image: url("../img/background1.png");
+	overflow: visible;
+	
+
+}
+.section--footer{
+	height: 128px;
+	
+	
+	
+	}
+	
+#button1{
+	top:800px !important;
+	left: 200px !important;
+	width: 345px !important;
+	height: 106px !important;
+	font-size: 40px !important;
+}
+#button2{
+	@include buttonStyle;
+	width: 144px;
+	height:48px;
+	font-size: 20px !important;
+	
+	
+}
+#logo1{
+	margin-top: 10px !important;
+	left: 110px !important;
+	top: 129px !important;
+	width: 549px !important ;
+	height: 413px !important;
+}
+#logo2{
+	display: none;
+
+}
+#logo3{
+	width:242px !important;
+	height: 182px !important;
+	margin-left: 100px !important;
+}
+#logo{
+	display: inherit !important;
+	width: 180px !important;
+	height: 137px !important;
+	margin-left: 293px;
+	margin-top: 10px;
+}
+#popup{
+	width:516px;
+	height: 274px;
+	font-size: 32px;
+	right:60px;
+}
+#words{
+	font-size: 48px;
+	margin-top: 80px;
+	width: 500px;
+}
+ul {
+    
+    right:90px;
+    top:100px;
+
+}
+
+li a {
+   
+    width:768px;
+    font-size: 20px; 
+    margin-left: 120px;
+
+	
+}
+#pizzaicon{
+	display: inherit !important;
+	width: 82px;
+	height: 82px;
+	bottom: 50px;
+	
+
+}
+#breadicon{
+	display: inherit !important;
+	width: 82px;
+	height: 82px;
+	bottom: 40px;
+	
+
+}
+#glassicon{
+	display: inherit !important;
+	width: 73px;
+	height: 73px;
+	bottom: 55px;
+	
+
+}
+#cakeicon{
+	display: inherit !important;
+	width: 69px;
+	height: 69px;
+	bottom: 55px;
+	
+
+}
+.wrapper{
+	grid-template-columns: repeat(2, 205px);
+	grid-column-gap:40px;
+	
+	
+
+
+}
+	
+#pagename{
+	display: inherit !important
+	}
+
+#button3{
+	font-size: 20px !important;
+	margin-left: 250px !important;
+	margin-top: 40px !important;
+	width:237px !important;
+	height: 47px !important;
+
+	}
+.pizza {
+	width: 205px !important;
+	height: 207px !important;
+
+}
+.add{
+	top:160px;
+	left:70px;
+}
+.remove{
+	top:160px;
+	left:110px;
+}
+.cartbutton1{
+	top:-90px;
+	left: 180px;
+	
+}
+.cartbutton2{
+	top:-50px;
+	left:180px;
+}
+.cartbackground1{
+	width:220px;
+	margin-left: 520px;
+	margin-top: -740px;
+	min-height: 200px;
+	margin-bottom: 500px;
+
+}
+.cartbackground2{
+	width:220px;
+	margin-left: 520px;
+	margin-top: -495px;
+	min-height: 200px;
+	margin-bottom: 500px;
+	
+}
+.cartTitle{
+	font-size:13px;
+}
+#cartCount{
+	font-size:13px;
+}
+#orderPrice{
+	font-size: 13px;
+}
+
+#kitchen{
+	font-size: 14px;
+	margin-left: 45px;
+
+
+
+}
+#cartTable{
+	margin-left: 5px;
+	font-size: 10px;
+}
+#popup3{
+	top:-120px;
+	right: 10px;
+	height:110px;
+}
+#popup4{
+	top:-120px;
+	right:10px;
+	height: 110px;
+}
+#popup5{
+	top:-120px;
+	right:10px;
+	height: 110px;
+}
+#popup2{
+	width:768px;
+	top:245px;
+	ul{
+		top:0px;
+	}
+}
+
+.title{
+	left:70px;
+	bottom: 160px;
+}
+.title2{
+	left:35px;
+	bottom: 160px;
+}
+.title3{
+	left:60px;
+	bottom: 160px;
+}
+.title4{
+	bottom:160px;
+	left:65px;
+}
+.title5{
+	position: absolute;
+	left:60px;
+}
+.title6{
+	position: absolute;
+	left: 40px;
+}
+.title7{
+	position: absolute;
+	left:25px;
+}
+#product_description{
+	left: 10px;
+	top:40px;
+}
+#product_description2{
+	left:20px;
+	top:50px;}
+#product_description3{
+	right:30px;
+	left:30px;
+	top:40px;
+}
+#product_description5{
+	left:20px;
+	right: 20px;
+	top:40px;}
+
+.product_price1{
+	left:85px;
+}
+.product_price2{
+	left:85px;
+}
+.product_price4{
+	
+	left:90px;
+}
+.product_price5{
+	left:85px;
+}
+.product_price6{
+	left:85px;
+}
+.progress{
+	margin-left: 180px;	
+	width:400px;
+	margin-top: 50px;
+}
+.cartTable{
+	font-size: 20px !important;
+}
+#yourOrder{
+	font-size: 25px;
+	margin-left: 130px
+}
+.orderprice{
+	font-size: 20px !important;
+}
+#myProgress{
+	height:50px;
+	margin-left:35px !important;
+	margin-top: 200px !important;
+
+}
+#myBar{
+	height: 50px !important;
+}
+#button5{
+	font-size: 20px !important;
+	width:250px !important;
+	height: 40px !important;
+	margin-left: 260px !important;
+}
+.button4{
+	width:345px !important;
+	height:106px !important;
+	font-size: 40px !important;
+	margin-left:215px !important;
+	margin-top: 150px !important;
+}
+.count{
+	display: none;
+}
+.iconsc{
+	font-size: 10px !important;
+	margin-left: 200px !important;
+	margin-top: 10px !important;
+	a{
+	font-size: 10px !important;
+	}
+}
+}
